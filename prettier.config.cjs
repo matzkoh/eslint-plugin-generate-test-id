@@ -1,12 +1,17 @@
-/** @type {import('prettier').Options} */
+/** @type {import('prettier').Config} */
 module.exports = {
-  plugins: ['prettier-plugin-packagejson'],
   arrowParens: 'avoid',
   printWidth: 100,
   semi: false,
   singleQuote: true,
   trailingComma: 'all',
   overrides: [
+    {
+      files: 'package.json',
+      options: {
+        plugins: ['prettier-plugin-packagejson'],
+      },
+    },
     {
       files: '*.{md,yaml,yml}',
       options: {
