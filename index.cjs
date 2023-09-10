@@ -20,7 +20,7 @@ function loadChildren(dirname) {
     fs
       .readdirSync(path.join(__dirname, dirname), { withFileTypes: true })
       .filter(entry => entry.isFile())
-      .map(({ path: dirname, name }) => [
+      .map(({ name }) => [
         path.basename(name, path.extname(name)),
         require(path.resolve(__dirname, dirname, name)),
       ]),

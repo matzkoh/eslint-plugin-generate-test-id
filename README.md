@@ -54,11 +54,13 @@ module.exports = [generateTestIdJsx];
 
 <!-- begin auto-generated rules list -->
 
+⚠️ Configurations set to warn in.\
+✅ Set in the `recommended` configuration.\
 🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
 
-| Name                     | Description                                    | 🔧 |
-| :----------------------- | :--------------------------------------------- | :- |
-| [jsx](docs/rules/jsx.md) | Fill empty data-test-id attributes with nanoid | 🔧 |
+| Name                     | Description                                    | ⚠️  | 🔧  |
+| :----------------------- | :--------------------------------------------- | :-- | :-- |
+| [jsx](docs/rules/jsx.md) | Fill empty data-test-id attributes with nanoid | ✅  | 🔧  |
 
 <!-- end auto-generated rules list -->
 

@@ -1,19 +1,15 @@
-const plugin = require('..')
+const { PLUGIN_NAME } = require('..')
 
-const { PLUGIN_NAME, rules } = plugin
-
-/** @type {import('eslint').Linter.FlatConfig} */
+/** @type {import('eslint').ESLint.ConfigData} */
 module.exports = {
-  languageOptions: {
-    parserOptions: {
-      ecmaVersion: 'latest',
-      ecmaFeatures: {
-        jsx: true,
-      },
+  parserOptions: {
+    ecmaVersion: 'latest',
+    ecmaFeatures: {
+      jsx: true,
     },
   },
-  plugins: {
-    [PLUGIN_NAME]: plugin,
+  plugins: [PLUGIN_NAME],
+  rules: {
+    [`${PLUGIN_NAME}/jsx`]: 'warn',
   },
-  rules,
 }
