@@ -12,15 +12,6 @@
     "npm",
     "typescript"
   ],
-  "ignorePaths": [
-    ".gitignore",
-    "package-lock.json"
-  ],
-  "words": [
-    "codecov",
-    "lcov",
-    "matzkoh",
-    "packagejson",
-    "TSES"
-  ]
+  "ignorePaths": [".gitignore", "package-lock.json"],
+  "words": ["codecov", "lcov", "matzkoh", "packagejson", "testid", "TSES"]
 }

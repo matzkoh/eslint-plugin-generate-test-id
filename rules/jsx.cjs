@@ -8,7 +8,7 @@
 
 /** @type {Options} */
 const defaultOptions = Object.freeze({
-  attributes: 'data-test-id',
+  attributes: ['data-test-id', 'data-testid'],
   length: 8,
 })
 
@@ -29,7 +29,7 @@ const schema = [
             },
           },
         ],
-        default: 'data-test-id',
+        default: ['data-test-id', 'data-testid'],
       },
       length: {
         type: 'integer',

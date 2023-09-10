@@ -20,6 +20,7 @@
     "index.cjs"
   ],
   "scripts": {
+    "prepare": "husky install",
     "lint": "run-p \"lint:*\"",
     "lint:docs": "npm run gen:docs -- --check",
     "lint:js": "eslint . --ext js,cjs,mjs",
