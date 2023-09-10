@@ -18,16 +18,11 @@ module.exports.configs = loadChildren('configs')
 function loadChildren(dirname) {
   return Object.fromEntries(
     fs
-      .readdirSync(dirname, { withFileTypes: true })
-      .flatMap(entry =>
-        entry.isFile()
-          ? [
-              [
-                path.basename(entry.name, path.extname(entry.name)),
-                require(path.resolve(entry.path, entry.name)),
-              ],
-            ]
-          : [],
-      ),
+      .readdirSync(path.join(__dirname, dirname), { withFileTypes: true })
+      .filter(entry => entry.isFile())
+      .map(({ path: dirname, name }) => [
+        path.basename(name, path.extname(name)),
+        require(path.resolve(__dirname, dirname, name)),
+      ]),
   )
 }
