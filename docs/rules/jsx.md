@@ -20,5 +20,5 @@
 }
 ```
 
-- `attributes` - An array of attribute names or an attribute name, filled with generated id. Default is `['data-test-id']`.
+- `attributes` - An array of attribute names or an attribute name, filled with generated id. Default is `['data-test-id', 'data-testid']`.
 - `length` - The length of the generated id value. Defaults to `8`.
