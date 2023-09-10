@@ -21,6 +21,7 @@
     "lcov",
     "matzkoh",
     "packagejson",
+    "testid",
     "TSES"
   ]
 }
