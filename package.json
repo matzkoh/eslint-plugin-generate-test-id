@@ -1,0 +1,62 @@
+{
+  "name": "eslint-plugin-generate-test-id",
+  "version": "0.0.0-development",
+  "description": "Fill empty data-test-id attributes with nanoid.",
+  "keywords": [
+    "eslint",
+    "eslint-plugin"
+  ],
+  "license": "MIT",
+  "author": "matzkoh",
+  "exports": {
+    ".": "./index.cjs",
+    "./rules/*": "./rules/*.cjs",
+    "./package.json": "./package.json"
+  },
+  "main": "./index.cjs",
+  "files": [
+    "configs",
+    "rules",
+    "index.cjs"
+  ],
+  "scripts": {
+    "lint": "run-p \"lint:*\"",
+    "lint:docs": "npm run gen:docs -- --check",
+    "lint:js": "eslint . --ext js,cjs,mjs",
+    "lint:spell": "cspell --gitignore --no-progress .",
+    "test": "c8 --reporter=lcov mocha tests --recursive",
+    "gen": "run-s gen:*",
+    "gen:docs": "eslint-doc-generator"
+  },
+  "dependencies": {
+    "nanoid": "^3.3.6"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@tsconfig/strictest": "^2.0.2",
+    "@types/eslint": "^8.44.2",
+    "@types/node": "^20.6.0",
+    "@typescript-eslint/types": "^6.6.0",
+    "c8": "^8.0.1",
+    "cspell": "^7.3.3",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-doc-generator": "^1.4.3",
+    "eslint-plugin-eslint-plugin": "^5.1.1",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-unicorn": "^48.0.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "mocha": "^10.2.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.0.3",
+    "prettier-plugin-packagejson": "^2.4.5",
+    "semantic-release": "^21.1.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "engines": {
+    "node": "^14.17.0 || ^16.0.0 || >= 18.0.0"
+  }
+}

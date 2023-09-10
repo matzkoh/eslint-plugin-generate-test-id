@@ -1,0 +1,26 @@
+{
+  "version": "0.2",
+  "dictionaries": [
+    "companies",
+    "bash",
+    "css",
+    "filetypes",
+    "html",
+    "softwareTerms",
+    "misc",
+    "node",
+    "npm",
+    "typescript"
+  ],
+  "ignorePaths": [
+    ".gitignore",
+    "package-lock.json"
+  ],
+  "words": [
+    "codecov",
+    "lcov",
+    "matzkoh",
+    "packagejson",
+    "TSES"
+  ]
+}
