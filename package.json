@@ -39,7 +39,7 @@
     "@types/node": "20.6.0",
     "@typescript-eslint/types": "6.7.0",
     "c8": "8.0.1",
-    "cspell": "7.3.3",
+    "cspell": "7.3.6",
     "eslint": "8.49.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-doc-generator": "1.4.3",
