@@ -30,7 +30,7 @@
     "gen:docs": "eslint-doc-generator"
   },
   "dependencies": {
-    "nanoid": "^3.3.6"
+    "nanoid": "^5.0.0"
   },
   "devDependencies": {
     "@tsconfig/node20": "20.1.2",
