@@ -35,7 +35,7 @@
   "devDependencies": {
     "@tsconfig/node20": "20.1.2",
     "@tsconfig/strictest": "2.0.2",
-    "@types/eslint": "8.44.6",
+    "@types/eslint": "8.44.7",
     "@types/node": "20.8.10",
     "@typescript-eslint/types": "6.10.0",
     "c8": "8.0.1",
