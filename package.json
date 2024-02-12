@@ -37,7 +37,7 @@
     "@tsconfig/strictest": "2.0.3",
     "@types/eslint": "8.56.2",
     "@types/node": "20.11.17",
-    "@typescript-eslint/types": "6.21.0",
+    "@typescript-eslint/types": "7.0.1",
     "c8": "9.1.0",
     "cspell": "8.3.2",
     "eslint": "8.56.0",
