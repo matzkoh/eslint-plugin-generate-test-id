@@ -40,7 +40,7 @@
     "@types/node": "20.12.14",
     "@typescript-eslint/types": "7.11.0",
     "c8": "9.1.0",
-    "cspell": "8.8.3",
+    "cspell": "8.8.4",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-doc-generator": "1.7.1",
