@@ -37,7 +37,7 @@
     "@tsconfig/node20": "20.1.4",
     "@tsconfig/strictest": "2.0.5",
     "@types/eslint": "8.56.10",
-    "@types/node": "20.14.2",
+    "@types/node": "20.14.5",
     "@typescript-eslint/types": "7.13.1",
     "c8": "10.1.2",
     "cspell": "8.8.4",
