@@ -45,7 +45,7 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-doc-generator": "1.7.1",
     "eslint-plugin-eslint-plugin": "6.5.0",
-    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-import": "2.32.0",
     "eslint-plugin-unicorn": "56.0.1",
     "husky": "9.1.7",
     "lint-staged": "15.5.2",
