@@ -48,7 +48,7 @@
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-unicorn": "56.0.1",
     "husky": "9.1.7",
-    "lint-staged": "16.1.5",
+    "lint-staged": "16.1.6",
     "mocha": "11.7.1",
     "npm-run-all2": "8.0.4",
     "prettier": "3.6.2",
