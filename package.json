@@ -34,7 +34,7 @@
     "nanoid": "^3.3.7"
   },
   "devDependencies": {
-    "@tsconfig/node20": "20.1.8",
+    "@tsconfig/node22": "22.0.0",
     "@tsconfig/strictest": "2.0.8",
     "@types/eslint": "9.6.1",
     "@types/node": "22.19.1",
